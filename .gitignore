@@ -1,0 +1,14 @@
+.venv/
+.venv311/
+.venv313/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.DS_Store
+data/
