@@ -19,14 +19,25 @@ Desenvolver um modelo de classificação de imagens para ajudar a EcoClean a aut
 ## Como usar
 
 1. Abra o projeto no VS Code.
-2. Ative o ambiente virtual:
+2. Crie e ative o ambiente virtual com Python 3.11:
 
 ```bash
 cd "/Users/cesarfavero/Documents/IBM/Tabalho Final - Classify Waste Products"
+python3.11 -m venv .venv311
 source .venv311/bin/activate
 ```
 
-3. Execute o notebook `Projeto Final Classificar Produtos de Resíduos.ipynb` com Jupyter.
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Abra o notebook `Projeto Final Classificar Produtos de Resíduos.ipynb` com Jupyter e execute todas as células.
+
+## Repositório remoto
+
+- https://github.com/cesarfavero/tabalho-final-classify-waste-products
 
 ## Dependências
 
